@@ -1,0 +1,28 @@
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.date{
+    background-color: rgb(166, 218, 218);
+    border-radius: 8px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2em;
+}
+.date:hover{
+    color: aqua;
+    background: black;
+}
+.day{
+    height: 40px;
+    background-color: rgb(236, 217, 191);
+    display: flex;
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
